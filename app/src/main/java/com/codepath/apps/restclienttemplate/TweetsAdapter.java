@@ -60,7 +60,6 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
 
     // Clean all elements of the recycler
     public void clear() {
-        tweets = new ArrayList<>();
         tweets.clear();
         notifyDataSetChanged();
     }
